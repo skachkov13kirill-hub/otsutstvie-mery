@@ -3,14 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Отсутствие меры. Страсть Сатарова — Лира Велена</title>
-<meta name="description" content="Остросюжетный любовный роман Лиры Велены. Он — друг её отца. Она — запретный плод. Как устоять, когда желание сильнее разума?">
+<title>Лира Велена — остросюжетные любовные романы</title>
+<meta name="description" content="Книги Лиры Велены: остросюжетные любовные романы о страсти, запретных чувствах и желании сильнее разума.">
 
-<!-- OpenGraph для красивых превью в соцсетях -->
-<meta property="og:type" content="book">
-<meta property="og:title" content="Отсутствие меры. Страсть Сатарова">
-<meta property="og:description" content="Он — друг её отца. Она — запретный плод. Это больше, чем искушение. Это — предательство.">
-<meta property="og:image" content="img/cover.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Лира Велена — книги">
+<meta property="og:description" content="Остросюжетные любовные романы о страсти сильнее разума.">
+<meta property="og:image" content="strast-satarova/img/cover.jpg">
 
 <!-- Top.Mail.Ru counter (VK Ads пиксель, ID 3769460) -->
 <script type="text/javascript">
@@ -39,7 +38,7 @@ _tmr.push({id: "3769460", type: "pageView", start: (new Date()).getTime()});
     line-height:1.65; -webkit-font-smoothing:antialiased;
   }
   .sans{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
   .badge18{
     position:fixed;top:14px;right:14px;z-index:20;
     background:var(--accent);color:#fff;font-weight:700;
@@ -47,70 +46,65 @@ _tmr.push({id: "3769460", type: "pageView", start: (new Date()).getTime()});
     font-family:-apple-system,sans-serif;letter-spacing:.5px;
   }
 
-  /* HERO */
+  /* HERO бренда автора */
   .hero{
-    background:radial-gradient(120% 80% at 80% 0%,#241b26 0%,var(--bg) 60%);
-    padding:64px 0 56px; border-bottom:1px solid var(--line);
+    text-align:center;
+    background:radial-gradient(120% 90% at 50% 0%,#241b26 0%,var(--bg) 62%);
+    padding:88px 0 64px; border-bottom:1px solid var(--line);
   }
-  .hero-grid{display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:center}
-  .cover-box{position:relative}
-  .cover-box img{
-    width:100%;border-radius:10px;display:block;
-    box-shadow:0 24px 60px rgba(0,0,0,.55),0 0 0 1px var(--line);
+  .kicker{
+    font-family:-apple-system,sans-serif;font-size:13px;letter-spacing:3px;
+    text-transform:uppercase;color:var(--gold);margin-bottom:18px;
   }
-  .genre{
-    font-family:-apple-system,sans-serif;font-size:13px;letter-spacing:1.5px;
-    text-transform:uppercase;color:var(--gold);margin-bottom:14px;
-  }
-  h1{font-size:42px;line-height:1.12;font-weight:700;margin-bottom:8px}
-  .author{font-size:19px;color:var(--accent2);font-style:italic;margin-bottom:22px}
-  .meta{
-    display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px;
-    font-family:-apple-system,sans-serif;font-size:14px;color:var(--muted);
-  }
-  .meta b{color:var(--text);font-weight:600}
-  .price-row{display:flex;align-items:baseline;gap:14px;margin-bottom:22px}
-  .price{font-size:34px;font-weight:700;color:var(--gold);font-family:-apple-system,sans-serif}
-  .cta{
-    display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));
-    color:#fff;text-decoration:none;font-family:-apple-system,sans-serif;
-    font-weight:700;font-size:17px;padding:16px 38px;border-radius:10px;
-    box-shadow:0 10px 30px rgba(194,69,94,.4);transition:transform .15s,box-shadow .15s;
-  }
-  .cta:hover{transform:translateY(-2px);box-shadow:0 14px 38px rgba(194,69,94,.55)}
-  .cta-note{font-family:-apple-system,sans-serif;font-size:13px;color:var(--muted);margin-top:12px}
+  .hero h1{font-size:58px;line-height:1.05;font-weight:700;margin-bottom:18px;letter-spacing:.5px}
+  .hero p{font-size:21px;color:var(--muted);max-width:620px;margin:0 auto;font-style:italic}
 
-  /* SECTIONS */
-  section{padding:56px 0;border-bottom:1px solid var(--line)}
-  .stitle{
+  /* КАТАЛОГ */
+  .catalog{padding:64px 0}
+  .sec-label{
     font-family:-apple-system,sans-serif;font-size:14px;letter-spacing:2px;
-    text-transform:uppercase;color:var(--gold);margin-bottom:20px;
+    text-transform:uppercase;color:var(--gold);margin-bottom:28px;text-align:center;
   }
-  .lead{font-size:22px;line-height:1.6}
-  .excerpt{
-    background:var(--card);border-left:3px solid var(--accent);
-    padding:28px 32px;border-radius:0 10px 10px 0;font-size:20px;
-    font-style:italic;line-height:1.8;color:#e8dde2;
+  .grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:28px;
   }
-  .tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
-  .tag{
-    font-family:-apple-system,sans-serif;font-size:13px;color:var(--muted);
-    background:var(--bg2);border:1px solid var(--line);padding:7px 14px;border-radius:20px;
+  .book{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    overflow:hidden;text-decoration:none;color:var(--text);display:flex;flex-direction:column;
+    transition:transform .18s,box-shadow .18s,border-color .18s;
   }
-  .faq-item{border-bottom:1px solid var(--line);padding:20px 0}
-  .faq-item:last-child{border-bottom:none}
-  .faq-q{font-size:18px;font-weight:700;margin-bottom:6px}
-  .faq-a{color:var(--muted);font-family:-apple-system,sans-serif;font-size:15px}
-  .final{text-align:center;background:radial-gradient(100% 100% at 50% 0%,#241b26,var(--bg))}
-  .final h2{font-size:32px;margin-bottom:24px}
-  footer{padding:36px 0;text-align:center;color:var(--muted);font-family:-apple-system,sans-serif;font-size:13px}
+  .book:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(0,0,0,.5);border-color:var(--accent)}
+  .book .cover{position:relative;aspect-ratio:480/752;overflow:hidden;background:#000}
+  .book .cover img{width:100%;height:100%;object-fit:cover;display:block}
+  .book .tag{
+    position:absolute;top:10px;left:10px;background:rgba(15,13,18,.82);
+    font-family:-apple-system,sans-serif;font-size:11px;letter-spacing:1px;
+    text-transform:uppercase;color:var(--gold);padding:5px 10px;border-radius:6px;
+  }
+  .book .body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+  .book h3{font-size:20px;line-height:1.25;margin-bottom:6px}
+  .book .rate{font-family:-apple-system,sans-serif;font-size:13px;color:var(--muted);margin-bottom:14px}
+  .book .foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto}
+  .book .price{font-family:-apple-system,sans-serif;font-weight:700;font-size:20px;color:var(--gold)}
+  .book .more{font-family:-apple-system,sans-serif;font-size:14px;color:var(--accent2);font-weight:600}
 
-  @media(max-width:760px){
-    .hero-grid{grid-template-columns:1fr;gap:28px}
-    .cover-box{max-width:240px;margin:0 auto}
-    h1{font-size:32px}
-    .lead{font-size:19px}
-    .excerpt{font-size:18px;padding:22px 24px}
+  /* placeholder «скоро» */
+  .soon{
+    border:1px dashed var(--line);border-radius:14px;display:flex;align-items:center;
+    justify-content:center;text-align:center;color:var(--muted);min-height:300px;
+    font-family:-apple-system,sans-serif;font-size:15px;padding:24px;
+  }
+
+  footer{padding:48px 0 40px;text-align:center;color:var(--muted);
+    font-family:-apple-system,sans-serif;font-size:13px;border-top:1px solid var(--line)}
+
+  @media(max-width:680px){
+    .hero{padding:60px 0 44px}
+    .hero h1{font-size:40px}
+    .hero p{font-size:18px}
+    .grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+    .book h3{font-size:17px}
   }
 </style>
 </head>
@@ -121,120 +115,45 @@ _tmr.push({id: "3769460", type: "pageView", start: (new Date()).getTime()});
 
 <div class="badge18">18+</div>
 
-<!-- HERO -->
 <header class="hero">
-  <div class="wrap hero-grid">
-    <div class="cover-box">
-      <img src="img/cover.jpg" alt="Отсутствие меры. Страсть Сатарова">
-    </div>
-    <div>
-      <div class="genre">Остросюжетный любовный роман · Эротика</div>
-      <h1>Отсутствие меры.<br>Страсть Сатарова</h1>
-      <div class="author">Лира Велена</div>
-      <div class="meta">
-        <span>★ <b>445</b> оценок</span>
-        <span><b>155</b> страниц</span>
-        <span>Статус: <b>завершена</b></span>
-      </div>
-      <div class="price-row">
-        <span class="price">169 ₽</span>
-      </div>
-      <a class="cta" href="https://litmarket.ru/books/otsutstvie-mery-strast-satarova" target="_blank" rel="noopener" id="buy-top">Читать книгу →</a>
-      <div class="cta-note">Покупка и чтение — на Литмаркете, в один клик</div>
-    </div>
+  <div class="wrap">
+    <div class="kicker">Автор</div>
+    <h1>Лира Велена</h1>
+    <p>Остросюжетные любовные романы о страсти, которая сильнее разума, принципов и правил.</p>
   </div>
 </header>
 
-<!-- АННОТАЦИЯ -->
-<section>
+<main class="catalog">
   <div class="wrap">
-    <div class="stitle">О чём книга</div>
-    <p class="lead">
-      Он — друг её отца. Устоявшаяся жизнь, статус, респектабельность. Рядом с ним —
-      разные женщины, но они просто фон. А она — яркая вспышка, запретный плод,
-      сладкий и совершенный. Его взгляд приковывает, а голос заставляет трепетать.
-      Как устоять, когда желание сильнее разума, принципов и многолетней дружбы?
-      Это больше, чем искушение. Это — предательство.
-    </p>
-  </div>
-</section>
+    <div class="sec-label">Книги</div>
+    <div class="grid">
 
-<!-- ОТРЫВОК -->
-<section>
-  <div class="wrap">
-    <div class="stitle">Отрывок</div>
-    <div class="excerpt">
-      «— Я согласна, — и никакого стыда во мне нет…<br>
-      — Дурочка, — выдаёт наконец.<br>
-      — Я вас люблю, Аким Артурович, — опьянённая признаюсь…»
-    </div>
-    <div class="tags">
-      <span class="tag">#властный герой</span>
-      <span class="tag">#горячо и откровенно</span>
-      <span class="tag">#сильные чувства</span>
-      <span class="tag">#разница в возрасте</span>
-      <span class="tag">#запретная страсть</span>
-    </div>
-  </div>
-</section>
+      <!-- Книга 1 -->
+      <a class="book" href="strast-satarova/">
+        <div class="cover">
+          <span class="tag">Завершена</span>
+          <img src="strast-satarova/img/cover.jpg" alt="Отсутствие меры. Страсть Сатарова">
+        </div>
+        <div class="body">
+          <h3>Отсутствие меры. Страсть Сатарова</h3>
+          <div class="rate">★ 445 оценок · 155 стр · 18+</div>
+          <div class="foot">
+            <span class="price">169 ₽</span>
+            <span class="more">Подробнее →</span>
+          </div>
+        </div>
+      </a>
 
-<!-- ОБ АВТОРЕ -->
-<section>
-  <div class="wrap">
-    <div class="stitle">Об авторе</div>
-    <p class="lead">
-      <b>Лира Велена</b> пишет остросюжетные любовные романы о страсти, которую
-      невозможно контролировать. Её героини оказываются на грани, где запретное
-      желание сильнее любых правил.
-    </p>
-  </div>
-</section>
+      <!-- Заглушка под следующую книгу -->
+      <div class="soon">Новая книга<br>скоро</div>
 
-<!-- FAQ -->
-<section>
-  <div class="wrap">
-    <div class="stitle">Вопросы</div>
-    <div class="faq-item">
-      <div class="faq-q">Где и как читать?</div>
-      <div class="faq-a">По кнопке «Читать книгу» открывается страница на Литмаркете — там книга доступна онлайн и для скачивания в приложение.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Сколько стоит?</div>
-      <div class="faq-a">169 ₽ — полный доступ к книге навсегда.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Книга закончена?</div>
-      <div class="faq-a">Да, роман завершён — 155 страниц, можно читать целиком сразу.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Возрастное ограничение</div>
-      <div class="faq-a">18+. Книга содержит откровенные сцены.</div>
     </div>
   </div>
-</section>
-
-<!-- ФИНАЛЬНЫЙ CTA -->
-<section class="final">
-  <div class="wrap">
-    <h2>Не устоять — это только начало</h2>
-    <a class="cta" href="https://litmarket.ru/books/otsutstvie-mery-strast-satarova" target="_blank" rel="noopener" id="buy-bottom">Читать книгу за 169 ₽ →</a>
-    <div class="cta-note">Переход на Литмаркет · оплата и чтение там же</div>
-  </div>
-</section>
+</main>
 
 <footer>
   © Лира Велена · Все права защищены
 </footer>
-
-<script>
-  // Отправка цели в VK Ads при клике на кнопку покупки.
-  document.querySelectorAll('#buy-top,#buy-bottom').forEach(function(b){
-    b.addEventListener('click',function(){
-      window._tmr = window._tmr || [];
-      window._tmr.push({type:'reachGoal', id:'3769460', goal:'buy_click'});
-    });
-  });
-</script>
 
 </body>
 </html>
