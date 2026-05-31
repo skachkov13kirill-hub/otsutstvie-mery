@@ -12,19 +12,19 @@
 <meta property="og:description" content="Он — друг её отца. Она — запретный плод. Это больше, чем искушение. Это — предательство.">
 <meta property="og:image" content="img/cover.jpg">
 
-<!-- ====================================================================
-     ПИКСЕЛЬ ВК — ЗАГЛУШКА. Вставить реальный ID когда создашь пиксель
-     в рекламном кабинете VK Ads. Замени VK_PIXEL_ID на свой ID.
-     ==================================================================== -->
+<!-- Top.Mail.Ru counter (VK Ads пиксель, ID 3769460) -->
 <script type="text/javascript">
-  /*
-  !function(){var t=document.createElement("script");t.type="text/javascript",
-  t.async=!0,t.src="https://vk.com/js/api/openapi.js?169",t.onload=function(){
-  VK.Retargeting.Init("VK_PIXEL_ID"),VK.Retargeting.Hit()},
-  document.head.appendChild(t)}();
-  */
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3769460", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "tmr-code");
 </script>
-<!-- noscript-пиксель тоже добавить вместе с ID -->
+<!-- /Top.Mail.Ru counter -->
 
 <style>
   :root{
@@ -115,6 +115,9 @@
 </style>
 </head>
 <body>
+
+<!-- Top.Mail.Ru counter (noscript) -->
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3769460;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
 
 <div class="badge18">18+</div>
 
@@ -224,11 +227,11 @@
 </footer>
 
 <script>
-  // Отправка цели в ВК при клике на кнопку покупки.
-  // Раскомментировать вместе с пикселем выше.
+  // Отправка цели в VK Ads при клике на кнопку покупки.
   document.querySelectorAll('#buy-top,#buy-bottom').forEach(function(b){
     b.addEventListener('click',function(){
-      // if(window.VK&&VK.Goal)VK.Goal('purchase_click');
+      window._tmr = window._tmr || [];
+      window._tmr.push({type:'reachGoal', id:'3769460', goal:'buy_click'});
     });
   });
 </script>
